@@ -11,7 +11,6 @@ def load_data(path):
     Load Dataset from File
     """
     input_file = os.path.join(path)
-    print(input_file)
     with open(input_file, "r") as f:
         data = f.read()
 
